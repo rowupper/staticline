@@ -1,0 +1,20 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible', content='ie=edge')
+  title Staticline
+  link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
+    
+  if options.cluster
+    link(rel='stylesheet', href='/' + package.name + '/assets/styles/app.css')
+  else
+    link(rel='stylesheet', href='/assets/styles/app.css')
+
+body
+  block content
+
+  if options.cluster
+    script(src='/' + package.name + '/assets/scripts/app.js')
+  else
+    script(src='/assets/scripts/app.js')

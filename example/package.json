@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "dev": "staticline dev",
+    "build": "staticline build",
+    "postbuild": "npm run sw",
+    "sw": "staticline sw"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "staticline": "file:../"
+  }
+}
