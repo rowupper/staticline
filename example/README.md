@@ -1,5 +1,11 @@
 # Example
 
+## Development
+
+```sh
+npm run dev
+```
+
 ## Build
 
 ```sh
