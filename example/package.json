@@ -7,7 +7,6 @@
     "postbuild": "npm run sw",
     "sw": "staticline sw"
   },
-  "license": "UNLICENSED",
   "devDependencies": {
     "staticline": "file:../"
   }
