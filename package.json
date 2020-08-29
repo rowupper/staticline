@@ -8,9 +8,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "npm-run-all lint:scripts lint:styles lint:views",
-    "lint:scripts": "eslint --quiet .",
-    "lint:styles": "stylelint --quiet --syntax scss **/*.scss",
-    "lint:views": "pug-lint .",
+    "lint:scripts": "eslint --quiet ./",
+    "lint:styles": "stylelint --syntax scss --quiet ./example/src/styles/app.scss",
+    "lint:views": "pug-lint ./example/src/views/**/*.pug",
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin HEAD && npm publish",
     "test": "npm run lint"
