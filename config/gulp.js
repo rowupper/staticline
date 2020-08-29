@@ -22,7 +22,8 @@ module.exports = {
   view: {
     data: {
       package: pkg,
-      options
+      options,
+      require
     },
     all: join(paths.src, 'views', '**', '*.pug'),
     layouts: join(paths.src, 'views', 'layouts', '*.pug'),
