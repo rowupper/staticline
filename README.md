@@ -1,6 +1,6 @@
-# Staticline
+# staticline
 
-Simple CLI tool used by Baseline in static projects.
+Simple CLI tool used by our static projects.
 
 ## Install
 

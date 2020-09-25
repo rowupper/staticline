@@ -1,7 +1,7 @@
 {
   "name": "staticline",
   "version": "0.0.3",
-  "description": "Simple CLI tool used by Baseline in static projects.",
+  "description": "Simple CLI tool used by our static projects.",
   "repository": "https://github.com/matchlayer/staticline.git",
   "license": "MIT",
   "author": "Matchlayer Team <developers@matchlayer.com> (https://matchlayer.com/developers)",
